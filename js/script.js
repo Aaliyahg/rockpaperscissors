@@ -4,8 +4,10 @@
 
 //GLOBAL VARIABLES
 /* global $ */
+$("#shoot").click(function(){
 
-
-
+    var number = Math.random();
+    $("#choices").append(number);
+  });
 // DOCUMENT READY FUNCTION BELOW
 
